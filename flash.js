@@ -3,7 +3,7 @@ console.log('Starting script')
 const delay_ms = 1000;
 let intervalID;  // id will be assigned when setInterval is called
 
-document.getElementById('btn').addEventListener('click', () => {
+document.querySelector('#btn').addEventListener('click', () => {
   console.log('Button clicked - calling clearInterval.')
   console.log('Refresh page to reflash.')
   clearInterval(intervalID)
